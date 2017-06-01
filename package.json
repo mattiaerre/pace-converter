@@ -1,0 +1,31 @@
+{
+  "name": "pace-converter",
+  "version": "1.0.0-alpha.1",
+  "description": "pace-converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattiaerre/pace-converter.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Mattia Richetto",
+    "email": "mattia.richetto@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattiaerre/pace-converter/issues"
+  },
+  "homepage": "https://github.com/mattiaerre/pace-converter#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "jest": "^20.0.4"
+  }
+}
