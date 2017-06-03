@@ -1,7 +1,7 @@
 {
   "name": "pace-converter",
   "version": "1.0.0-alpha.1",
-  "description": "pace-converter",
+  "description": "Universal running pace convert. Minutes per kilometer, Kilometers per hour, Minutes per mile, Miles per hour.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -10,7 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/mattiaerre/pace-converter.git"
   },
-  "keywords": [],
+  "keywords": [
+    "running",
+    "pace",
+    "converter",
+    "minutes",
+    "kilometer",
+    "kilometers",
+    "hour",
+    "mile",
+    "miles"
+  ],
   "author": {
     "name": "Mattia Richetto",
     "email": "mattia.richetto@gmail.com"
