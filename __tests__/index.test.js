@@ -1,4 +1,15 @@
-const { minkm2kmh, kmh2minkm, minkm2minmi, minmi2minkm, minkm2mih, mih2minkm } = require('../index');
+const {
+  minkm2kmh,
+  kmh2minkm,
+  minkm2minmi,
+  minmi2minkm,
+  minkm2mih,
+  mih2minkm,
+  kmh2minmi,
+  minmi2kmh,
+  kmh2mih,
+  mih2kmh
+} = require('../index');
 
 const scenarios = [
   {
@@ -24,6 +35,12 @@ const scenarios = [
     kmh: 8.571,
     minmi: 11.265,
     mih: 5.326
+  },
+  {
+    minkm: 8.0,
+    kmh: 7.5,
+    minmi: 12.874,
+    mih: 4.661
   }
 ];
 
@@ -83,6 +100,46 @@ describe('mih2minkm', () => {
       const mih = scenario.mih;
       const minkm = mih2minkm(mih);
       expect(minkm).toBe(scenario.minkm);
+    });
+  });
+});
+
+describe('kmh2minmi', () => {
+  scenarios.forEach((scenario) => {
+    test(`expect ${scenario.kmh} kmh to be ${scenario.minmi} minmi`, () => {
+      const kmh = scenario.kmh;
+      const minmi = kmh2minmi(kmh);
+      expect(minmi).toBe(scenario.minmi);
+    });
+  });
+});
+
+describe('minmi2kmh', () => {
+  scenarios.forEach((scenario) => {
+    test(`expect ${scenario.minmi} minmi to be ${scenario.kmh} kmh`, () => {
+      const minmi = scenario.minmi;
+      const kmh = minmi2kmh(minmi);
+      expect(kmh).toBe(scenario.kmh);
+    });
+  });
+});
+
+describe('kmh2mih', () => {
+  scenarios.forEach((scenario) => {
+    test(`expect ${scenario.kmh} kmh to be ${scenario.mih} mih`, () => {
+      const kmh = scenario.kmh;
+      const mih = kmh2mih(kmh);
+      expect(mih).toBe(scenario.mih);
+    });
+  });
+});
+
+describe('mih2kmh', () => {
+  scenarios.forEach((scenario) => {
+    test(`expect ${scenario.mih} mih to be ${scenario.kmh} kmh`, () => {
+      const mih = scenario.mih;
+      const kmh = mih2kmh(mih);
+      expect(kmh).toBe(scenario.kmh);
     });
   });
 });
