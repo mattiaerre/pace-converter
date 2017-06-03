@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`kmh2mih expect 7.5 kmh to be 4.661 mih 1`] = `4.661`;
+
+exports[`kmh2mih expect 8.571 kmh to be 5.326 mih 1`] = `5.326`;
+
+exports[`kmh2mih expect 10 kmh to be 6.214 mih 1`] = `6.214`;
+
+exports[`kmh2mih expect 12 kmh to be 7.457 mih 1`] = `7.457`;
+
+exports[`kmh2mih expect 12.873 kmh to be 8 mih 1`] = `7.999`;
+
+exports[`kmh2mih expect 15 kmh to be 9.321 mih 1`] = `9.321`;
+
+exports[`kmh2minkm expect 7.5 kmh to be 8 minkm 1`] = `8`;
+
+exports[`kmh2minkm expect 8.571 kmh to be 7 minkm 1`] = `7`;
+
+exports[`kmh2minkm expect 10 kmh to be 6 minkm 1`] = `6`;
+
+exports[`kmh2minkm expect 12 kmh to be 5 minkm 1`] = `5`;
+
+exports[`kmh2minkm expect 12.873 kmh to be 4.661 minkm 1`] = `4.661`;
+
+exports[`kmh2minkm expect 15 kmh to be 4 minkm 1`] = `4`;
+
+exports[`kmh2minmi expect 7.5 kmh to be 12.873 minmi 1`] = `12.874`;
+
+exports[`kmh2minmi expect 8.571 kmh to be 11.265 minmi 1`] = `11.265`;
+
+exports[`kmh2minmi expect 10 kmh to be 9.656 minmi 1`] = `9.656`;
+
+exports[`kmh2minmi expect 12 kmh to be 8.046 minmi 1`] = `8.046`;
+
+exports[`kmh2minmi expect 12.873 kmh to be 7.5 minmi 1`] = `7.501`;
+
+exports[`kmh2minmi expect 15 kmh to be 6.437 minmi 1`] = `6.437`;
+
+exports[`mih2kmh expect 4.661 mih to be 7.5 kmh 1`] = `7.501`;
+
+exports[`mih2kmh expect 5.326 mih to be 8.571 kmh 1`] = `8.571`;
+
+exports[`mih2kmh expect 6.214 mih to be 10 kmh 1`] = `10`;
+
+exports[`mih2kmh expect 7.457 mih to be 12 kmh 1`] = `12`;
+
+exports[`mih2kmh expect 8 mih to be 12.873 kmh 1`] = `12.874`;
+
+exports[`mih2kmh expect 9.321 mih to be 15 kmh 1`] = `15`;
+
+exports[`mih2minkm expect 4.661 mih to be 8 minkm 1`] = `7.999`;
+
+exports[`mih2minkm expect 5.326 mih to be 7 minkm 1`] = `7`;
+
+exports[`mih2minkm expect 6.214 mih to be 6 minkm 1`] = `6`;
+
+exports[`mih2minkm expect 7.457 mih to be 5 minkm 1`] = `5`;
+
+exports[`mih2minkm expect 8 mih to be 4.661 minkm 1`] = `4.661`;
+
+exports[`mih2minkm expect 9.321 mih to be 4 minkm 1`] = `4`;
+
+exports[`mih2minmi expect 4.661 mih to be 12.873 minmi 1`] = `12.873`;
+
+exports[`mih2minmi expect 5.326 mih to be 11.265 minmi 1`] = `11.265`;
+
+exports[`mih2minmi expect 6.214 mih to be 9.656 minmi 1`] = `9.656`;
+
+exports[`mih2minmi expect 7.457 mih to be 8.046 minmi 1`] = `8.046`;
+
+exports[`mih2minmi expect 8 mih to be 7.5 minmi 1`] = `7.5`;
+
+exports[`mih2minmi expect 9.321 mih to be 6.437 minmi 1`] = `6.437`;
+
+exports[`minkm2kmh expect 4 minkm to be 15 kmh 1`] = `15`;
+
+exports[`minkm2kmh expect 4.661 minkm to be 12.873 kmh 1`] = `12.873`;
+
+exports[`minkm2kmh expect 5 minkm to be 12 kmh 1`] = `12`;
+
+exports[`minkm2kmh expect 6 minkm to be 10 kmh 1`] = `10`;
+
+exports[`minkm2kmh expect 7 minkm to be 8.571 kmh 1`] = `8.571`;
+
+exports[`minkm2kmh expect 8 minkm to be 7.5 kmh 1`] = `7.5`;
+
+exports[`minkm2mih expect 4 minkm to be 9.321 mih 1`] = `9.321`;
+
+exports[`minkm2mih expect 4.661 minkm to be 8 mih 1`] = `7.999`;
+
+exports[`minkm2mih expect 5 minkm to be 7.457 mih 1`] = `7.457`;
+
+exports[`minkm2mih expect 6 minkm to be 6.214 mih 1`] = `6.214`;
+
+exports[`minkm2mih expect 7 minkm to be 5.326 mih 1`] = `5.326`;
+
+exports[`minkm2mih expect 8 minkm to be 4.661 mih 1`] = `4.661`;
+
+exports[`minkm2minmi expect 4 minkm to be 6.437 minmi 1`] = `6.437`;
+
+exports[`minkm2minmi expect 4.661 minkm to be 7.5 minmi 1`] = `7.501`;
+
+exports[`minkm2minmi expect 5 minkm to be 8.046 minmi 1`] = `8.046`;
+
+exports[`minkm2minmi expect 6 minkm to be 9.656 minmi 1`] = `9.656`;
+
+exports[`minkm2minmi expect 7 minkm to be 11.265 minmi 1`] = `11.265`;
+
+exports[`minkm2minmi expect 8 minkm to be 12.873 minmi 1`] = `12.874`;
+
+exports[`minmi2kmh expect 6.437 minmi to be 15 kmh 1`] = `15`;
+
+exports[`minmi2kmh expect 7.5 minmi to be 12.873 kmh 1`] = `12.874`;
+
+exports[`minmi2kmh expect 8.046 minmi to be 12 kmh 1`] = `12.001`;
+
+exports[`minmi2kmh expect 9.656 minmi to be 10 kmh 1`] = `10`;
+
+exports[`minmi2kmh expect 11.265 minmi to be 8.571 kmh 1`] = `8.571`;
+
+exports[`minmi2kmh expect 12.873 minmi to be 7.5 kmh 1`] = `7.501`;
+
+exports[`minmi2mih expect 6.437 minmi to be 9.321 mih 1`] = `9.321`;
+
+exports[`minmi2mih expect 7.5 minmi to be 8 mih 1`] = `8`;
+
+exports[`minmi2mih expect 8.046 minmi to be 7.457 mih 1`] = `7.457`;
+
+exports[`minmi2mih expect 9.656 minmi to be 6.214 mih 1`] = `6.214`;
+
+exports[`minmi2mih expect 11.265 minmi to be 5.326 mih 1`] = `5.326`;
+
+exports[`minmi2mih expect 12.873 minmi to be 4.661 mih 1`] = `4.661`;
+
+exports[`minmi2minkm expect 6.437 minmi to be 4 minkm 1`] = `4`;
+
+exports[`minmi2minkm expect 7.5 minmi to be 4.661 minkm 1`] = `4.661`;
+
+exports[`minmi2minkm expect 8.046 minmi to be 5 minkm 1`] = `5`;
+
+exports[`minmi2minkm expect 9.656 minmi to be 6 minkm 1`] = `6`;
+
+exports[`minmi2minkm expect 11.265 minmi to be 7 minkm 1`] = `7`;
+
+exports[`minmi2minkm expect 12.873 minmi to be 8 minkm 1`] = `7.999`;

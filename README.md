@@ -24,6 +24,10 @@ Universal running pace convert. Minutes per kilometer, Kilometers per hour, Minu
 
 - [X] Miles per hour to Kilometers per hour (mih2kmh)
 
+- [X] Miles per hour to Minutes per mile (mih2minmi)
+
+- [X] Minutes per mile to Miles per hour (minmi2mih)
+
 ## Resources
 
 - [http://www.runnersworld.com/pace-calculators/pace-converter](http://www.runnersworld.com/pace-calculators/pace-converter)
