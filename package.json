@@ -4,6 +4,7 @@
   "description": "Universal running pace convert. Minutes per kilometer, Kilometers per hour, Minutes per mile, Miles per hour.",
   "main": "index.js",
   "scripts": {
+    "coverage": "jest --coverage",
     "test": "jest"
   },
   "repository": {
