@@ -1,6 +1,6 @@
 const pad2 = (integer) => {
   if (integer > 99) {
-    throw Error('the integer is greater than 99');
+    throw new Error('the integer is greater than 99');
   }
   return integer <= 9 ? `0${integer}` : integer;
 };
