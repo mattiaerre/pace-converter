@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`convert when 4:30 minkm expect model to match snapshot 1`] = `
+Object {
+  "kmh": 13.333,
+  "mih": 8.285,
+  "minkm": "4:30",
+  "minmi": "7:14.52",
+}
+`;
