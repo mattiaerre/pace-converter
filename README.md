@@ -1,6 +1,6 @@
 # pace-converter
 
-Universal running pace convert. Minutes per kilometer, Kilometers per hour, Minutes per mile, Miles per hour.
+Universal running pace converter. Minutes per kilometer, Kilometers per hour, Minutes per mile, Miles per hour.
 
 ## Converters
 
