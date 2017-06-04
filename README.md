@@ -4,7 +4,7 @@ Universal running pace converter. Minutes per kilometer, Kilometers per hour, Mi
 
 ## Converters
 
-![converters - v1.0.0](converters_-_v1.0.0.png "converters - v1.0.0")
+![converters - v1.0.1](converters_-_v1.0.1.png "converters - v1.0.1")
 
 - [X] Minutes per kilometer to Kilometers per hour (minkm2kmh)
 
