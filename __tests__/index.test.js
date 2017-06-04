@@ -11,7 +11,7 @@ const {
   mih2kmh,
   mih2minmi,
   minmi2mih
-} = require('../index');
+} = require('../src/index');
 
 const scenarios = [
   {
