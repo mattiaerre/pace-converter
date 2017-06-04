@@ -4,11 +4,12 @@ const { minkm2kmh, minkm2minmi, minkm2mih } = require('./converters');
 
 const convert = (pace, unit) => {
   if (unit === 'minkm') {
+    const minkm = time2float(pace);
     return {
       minkm: pace,
-      kmh: minkm2kmh(time2float(pace)),
-      minmi: float2time(minkm2minmi(time2float(pace))),
-      mih: minkm2mih(time2float(pace))
+      kmh: minkm2kmh(minkm),
+      minmi: float2time(minkm2minmi(minkm)),
+      mih: minkm2mih(minkm)
     };
   }
   throw new Error('unknown unit');

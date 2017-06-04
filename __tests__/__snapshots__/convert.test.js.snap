@@ -8,3 +8,21 @@ Object {
   "minmi": "7:14.52",
 }
 `;
+
+exports[`convert when 4:40 minkm expect model to match snapshot 1`] = `
+Object {
+  "kmh": 12.857,
+  "mih": 7.989,
+  "minkm": "4:40",
+  "minmi": "7:30.6",
+}
+`;
+
+exports[`convert when 5:00 minkm expect model to match snapshot 1`] = `
+Object {
+  "kmh": 12,
+  "mih": 7.457,
+  "minkm": "5:00",
+  "minmi": "8:02.76",
+}
+`;

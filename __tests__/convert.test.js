@@ -5,6 +5,14 @@ describe('convert', () => {
     {
       pace: '4:30',
       unit: 'minkm'
+    },
+    {
+      pace: '4:40',
+      unit: 'minkm'
+    },
+    {
+      pace: '5:00',
+      unit: 'minkm'
     }
   ];
 
