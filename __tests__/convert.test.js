@@ -1,7 +1,6 @@
 const convert = require('../src/convert');
 const units = require('../src/units');
 
-
 describe('convert', () => {
   const scenarios = [
     {
