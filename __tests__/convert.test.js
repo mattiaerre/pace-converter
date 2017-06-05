@@ -1,18 +1,20 @@
 const convert = require('../src/convert');
+const units = require('../src/units');
+
 
 describe('convert', () => {
   const scenarios = [
     {
       pace: '4:30',
-      unit: 'minkm'
+      unit: units.MINKM
     },
     {
       pace: '4:40',
-      unit: 'minkm'
+      unit: units.MINKM
     },
     {
       pace: '5:00',
-      unit: 'minkm'
+      unit: units.MINKM
     }
   ];
 

@@ -4,7 +4,7 @@ const float2time = (float) => {
   const integer = Math.floor(float);
   const decimal = float % 1;
   const minutes = integer;
-  const seconds = pad2(60 * decimal.toFixed(3));
+  const seconds = pad2((60 * decimal).toFixed(2));
   return `${minutes}:${seconds}`;
 };
 
