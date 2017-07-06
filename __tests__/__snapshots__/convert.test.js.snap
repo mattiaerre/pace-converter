@@ -1,5 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`convert unknown unit to throw error matching snapshot 1`] = `"unknown unit"`;
+
 exports[`convert when 4:30 minkm expect model to match snapshot 1`] = `
 Object {
   "kmh": 13.333,
@@ -24,5 +26,23 @@ Object {
   "mih": 7.457,
   "minkm": "5:00",
   "minmi": "8:02.76",
+}
+`;
+
+exports[`convert when 12 kmh expect model to match snapshot 1`] = `
+Object {
+  "kmh": 12,
+  "mih": 7.457,
+  "minkm": "5:00.00",
+  "minmi": "8:02.76",
+}
+`;
+
+exports[`convert when 13.6 kmh expect model to match snapshot 1`] = `
+Object {
+  "kmh": 13.6,
+  "mih": 8.451,
+  "minkm": "4:24.72",
+  "minmi": "7:06.00",
 }
 `;

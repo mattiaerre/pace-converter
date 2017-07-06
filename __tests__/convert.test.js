@@ -14,6 +14,14 @@ describe('convert', () => {
     {
       pace: '5:00',
       unit: units.MINKM
+    },
+    {
+      pace: 12,
+      unit: units.KMH
+    },
+    {
+      pace: 13.6,
+      unit: units.KMH
     }
   ];
 
@@ -22,5 +30,9 @@ describe('convert', () => {
       const model = convert(scenario.pace, scenario.unit);
       expect(model).toMatchSnapshot();
     });
+  });
+
+  test('unknown unit to throw error matching snapshot', () => {
+    expect(() => { convert(1000, '$'); }).toThrowErrorMatchingSnapshot();
   });
 });

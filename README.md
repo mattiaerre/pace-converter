@@ -2,6 +2,14 @@
 
 Universal running pace converter. Minutes per kilometer, Kilometers per hour, Minutes per mile, Miles per hour.
 
+## How to use the CLI
+
+```bash
+➜ ~ npm i -g pace-converter
+➜ ~ pace-converter-convert 12.50 'kmh'
+{ minkm: '4:48.00', kmh: 12.5, minmi: '7:43.44', mih: 7.767 }
+```
+
 ## Converters
 
 ![converters - v1.0.1](converters_-_v1.0.1.png "converters - v1.0.1")
