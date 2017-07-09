@@ -10,6 +10,16 @@ Universal running pace converter. Minutes per kilometer, Kilometers per hour, Mi
 { minkm: '4:48.00', kmh: 12.5, minmi: '7:43.44', mih: 7.767 }
 ```
 
+## Convert
+
+- [X] Minutes per kilometer: 'minkm'
+
+- [X] Kilometers per hour: 'kmh'
+
+- [ ] Minutes per mile: 'minmi'
+
+- [ ] Miles per hour: 'mih'
+
 ## Converters
 
 ![converters - v1.0.1](converters_-_v1.0.1.png "converters - v1.0.1")
