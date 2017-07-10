@@ -17,7 +17,7 @@ const convert = (pace, unit) => {
     const kmh = Number.parseFloat(pace);
     return {
       minkm: float2time(kmh2minkm(kmh)),
-      kmh,
+      kmh: pace,
       minmi: float2time(kmh2minmi(kmh)),
       mih: kmh2mih(kmh)
     };

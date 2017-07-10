@@ -22,6 +22,14 @@ describe('convert', () => {
     {
       pace: 13.6,
       unit: units.KMH
+    },
+    {
+      pace: 3.96,
+      unit: units.KMH
+    },
+    {
+      pace: 6.12,
+      unit: units.KMH
     }
   ];
 
