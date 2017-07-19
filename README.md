@@ -6,8 +6,8 @@ Universal running pace converter. Minutes per kilometer, Kilometers per hour, Mi
 
 ```bash
 ➜ ~ npm i -g pace-converter
-➜ ~ pace-converter-convert 12.50 'kmh'
-{ minkm: '4:48.00', kmh: 12.5, minmi: '7:43.44', mih: 7.767 }
+➜ ~ pace-converter-convert -p '5:00' -u 'minkm'
+{ minkm: '5:00', kmh: 12, minmi: '08:02.76', mih: 7.457 }
 ```
 
 ## Convert
@@ -16,7 +16,7 @@ Universal running pace converter. Minutes per kilometer, Kilometers per hour, Mi
 
 - [X] Kilometers per hour: 'kmh'
 
-- [ ] Minutes per mile: 'minmi'
+- [X] Minutes per mile: 'minmi'
 
 - [ ] Miles per hour: 'mih'
 

@@ -1,6 +1,6 @@
 {
   "name": "pace-converter",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.4",
   "description": "Universal running pace converter. Minutes per kilometer, Kilometers per hour, Minutes per mile, Miles per hour.",
   "main": "index.js",
   "scripts": {
@@ -41,5 +41,8 @@
   },
   "bin": {
     "pace-converter-convert": "./pace-converter-convert.js"
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
   }
 }

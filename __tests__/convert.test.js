@@ -30,6 +30,18 @@ describe('convert', () => {
     {
       pace: 6.12,
       unit: units.KMH
+    },
+    {
+      pace: '8:00',
+      unit: units.MINMI
+    },
+    {
+      pace: '8:30',
+      unit: units.MINMI
+    },
+    {
+      pace: '7:30',
+      unit: units.MINMI
     }
   ];
 

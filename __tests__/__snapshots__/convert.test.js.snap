@@ -47,6 +47,33 @@ Object {
 }
 `;
 
+exports[`convert when 7:30 minmi expect model to match snapshot 1`] = `
+Object {
+  "kmh": 12.874,
+  "mih": 8,
+  "minkm": "04:39.66",
+  "minmi": "7:30",
+}
+`;
+
+exports[`convert when 8:00 minmi expect model to match snapshot 1`] = `
+Object {
+  "kmh": 12.07,
+  "mih": 7.5,
+  "minkm": "04:58.26",
+  "minmi": "8:00",
+}
+`;
+
+exports[`convert when 8:30 minmi expect model to match snapshot 1`] = `
+Object {
+  "kmh": 11.36,
+  "mih": 7.059,
+  "minkm": "05:16.92",
+  "minmi": "8:30",
+}
+`;
+
 exports[`convert when 12 kmh expect model to match snapshot 1`] = `
 Object {
   "kmh": 12,
