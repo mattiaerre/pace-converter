@@ -2,6 +2,22 @@
 
 Universal running pace converter. Minutes per kilometer, Kilometers per hour, Minutes per mile, Miles per hour.
 
+[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
+
+## How to use the Library
+
+```bash
+➜ ~ npm i -S pace-converter
+```
+
+```javascript
+const convert = require('pace-converter').convert;
+
+const model = convert('4:50', 'minkm');
+
+console.log('model:', JSON.stringify(model, null, 2));
+```
+
 ## How to use the CLI
 
 ```bash
