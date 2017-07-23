@@ -22,8 +22,8 @@ console.log('model:', JSON.stringify(model, null, 2));
 
 ```bash
 ➜ ~ npm i -g pace-converter
-➜ ~ pace-converter-convert -p '5:00' -u 'minkm'
-{ minkm: '5:00', kmh: 12, minmi: '08:02.76', mih: 7.457 }
+➜ ~ pace-converter-convert -p 4:40 -u minkm
+{ minkm: '04:40.00', kmh: 12.857, minmi: '07:30.60', mih: 7.989 }
 ```
 
 ## Convert
