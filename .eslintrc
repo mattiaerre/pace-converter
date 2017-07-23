@@ -4,6 +4,7 @@
     "jest": true
   },
   "rules": {
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "jsx-a11y/href-no-hash": "off"
   }
 }

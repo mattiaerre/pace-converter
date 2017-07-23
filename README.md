@@ -34,7 +34,7 @@ console.log('model:', JSON.stringify(model, null, 2));
 
 - [X] Minutes per mile: 'minmi'
 
-- [ ] Miles per hour: 'mih'
+- [X] Miles per hour: 'mih'
 
 ## Converters
 

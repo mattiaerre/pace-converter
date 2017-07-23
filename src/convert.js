@@ -9,7 +9,10 @@ const {
   kmh2mih,
   minmi2minkm,
   minmi2kmh,
-  minmi2mih
+  minmi2mih,
+  mih2minkm,
+  mih2kmh,
+  mih2minmi
 } = require('./converters');
 const units = require('./units');
 
@@ -17,7 +20,7 @@ const convert = (pace, unit) => {
   if (unit === units.MINKM) {
     const minkm = time2float(pace);
     return {
-      minkm: pace,
+      minkm: float2time(minkm),
       kmh: minkm2kmh(minkm),
       minmi: float2time(minkm2minmi(minkm)),
       mih: minkm2mih(minkm)
@@ -27,7 +30,7 @@ const convert = (pace, unit) => {
     const kmh = Number.parseFloat(pace);
     return {
       minkm: float2time(kmh2minkm(kmh)),
-      kmh: pace,
+      kmh,
       minmi: float2time(kmh2minmi(kmh)),
       mih: kmh2mih(kmh)
     };
@@ -37,8 +40,17 @@ const convert = (pace, unit) => {
     return {
       minkm: float2time(minmi2minkm(minmi)),
       kmh: minmi2kmh(minmi),
-      minmi: pace,
+      minmi: float2time(minmi),
       mih: minmi2mih(minmi)
+    };
+  }
+  if (unit === units.MIH) {
+    const mih = Number.parseFloat(pace);
+    return {
+      minkm: float2time(mih2minkm(mih)),
+      kmh: mih2kmh(mih),
+      minmi: float2time(mih2minmi(mih)),
+      mih
     };
   }
   throw new Error('unknown unit');

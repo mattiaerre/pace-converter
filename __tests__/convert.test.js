@@ -42,6 +42,18 @@ describe('convert', () => {
     {
       pace: '7:30',
       unit: units.MINMI
+    },
+    {
+      pace: '07:30.00',
+      unit: units.MINMI
+    },
+    {
+      pace: 8,
+      unit: units.MIH
+    },
+    {
+      pace: 10,
+      unit: units.MIH
     }
   ];
 

@@ -2,6 +2,15 @@
 
 exports[`convert unknown unit to throw error matching snapshot 1`] = `"unknown unit"`;
 
+exports[`convert when 07:30.00 minmi expect model to match snapshot 1`] = `
+Object {
+  "kmh": 12.874,
+  "mih": 8,
+  "minkm": "04:39.66",
+  "minmi": "07:30.00",
+}
+`;
+
 exports[`convert when 3.96 kmh expect model to match snapshot 1`] = `
 Object {
   "kmh": 3.96,
@@ -15,7 +24,7 @@ exports[`convert when 4:30 minkm expect model to match snapshot 1`] = `
 Object {
   "kmh": 13.333,
   "mih": 8.285,
-  "minkm": "4:30",
+  "minkm": "04:30.00",
   "minmi": "07:14.52",
 }
 `;
@@ -24,7 +33,7 @@ exports[`convert when 4:40 minkm expect model to match snapshot 1`] = `
 Object {
   "kmh": 12.857,
   "mih": 7.989,
-  "minkm": "4:40",
+  "minkm": "04:40.00",
   "minmi": "07:30.60",
 }
 `;
@@ -33,7 +42,7 @@ exports[`convert when 5:00 minkm expect model to match snapshot 1`] = `
 Object {
   "kmh": 12,
   "mih": 7.457,
-  "minkm": "5:00",
+  "minkm": "05:00.00",
   "minmi": "08:02.76",
 }
 `;
@@ -52,7 +61,16 @@ Object {
   "kmh": 12.874,
   "mih": 8,
   "minkm": "04:39.66",
-  "minmi": "7:30",
+  "minmi": "07:30.00",
+}
+`;
+
+exports[`convert when 8 mih expect model to match snapshot 1`] = `
+Object {
+  "kmh": 12.874,
+  "mih": 8,
+  "minkm": "04:39.66",
+  "minmi": "07:30.00",
 }
 `;
 
@@ -61,7 +79,7 @@ Object {
   "kmh": 12.07,
   "mih": 7.5,
   "minkm": "04:58.26",
-  "minmi": "8:00",
+  "minmi": "08:00.00",
 }
 `;
 
@@ -70,7 +88,16 @@ Object {
   "kmh": 11.36,
   "mih": 7.059,
   "minkm": "05:16.92",
-  "minmi": "8:30",
+  "minmi": "08:30.00",
+}
+`;
+
+exports[`convert when 10 mih expect model to match snapshot 1`] = `
+Object {
+  "kmh": 16.093,
+  "mih": 10,
+  "minkm": "03:43.68",
+  "minmi": "06:00.00",
 }
 `;
 
